@@ -9,18 +9,53 @@
   <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/index.css">
   <link rel="icon" type="image/png" href="images/favicon.png">
 </head>
 <body>
 
   <div class="container">
-    <div class="row">
-      <div class="one-half column" style="margin-top: 25%">
-        <h4>Basic Page</h4>
-        <p>This index.html page is a placeholder with the CSS, font and favicon. It's just waiting for you to add some content! If you need some help hit up the <a href="http://www.getskeleton.com">Skeleton documentation</a>.</p>
+    <div class="row header">
+      <h4 class="one-half column">Jingyu Yao</h4>
+      <div class="one-half column">
+        <a class="button" href="#about">About</a>
+        <a class="button" href="#projects">Projects</a>
+      </div>
+    </div>
+    <div id="about" class="row">
+      <div class="six columns">
+        <p>
+          I am a senior studying computer science at Northeastern University
+          and a future software engineer at Google. I started programming during
+          high school and its been a passion of mine ever since. I have done
+          <a href="documents/Jingyu_Yao_HS_Research_no_code.pdf">research</a>,
+          robotics and numerous internships at companies such as Google and
+          Microsoft. I have extensive experience in full stack web development
+          as well as data processing.
+        </p>
+        <p>
+          Outside of work and school I am an avid gamer and comics geek. You can
+          usually find me playing Overwatch or Rainbow Six: Siege.
+        </p>
+      </div>
+      <div class="four offset-by-one columns">
+        <img class="u-max-full-width" src="images/me.png"/>
+      </div>
+    </div>
+    <div id="projects" class="row">
+      <div class="twelve columns">
+        TODO: projects
       </div>
     </div>
   </div>
 
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-55772901-1', 'auto');
+  ga('send', 'pageview');
+  </script>
 </body>
 </html>
